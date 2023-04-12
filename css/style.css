@@ -51,7 +51,10 @@ nav a:hover {
   width: 200px;
   height: 200px;
   margin: 10px;
-  border: 2px solid #4a4a4a;
+  border: 10px solid #333333;
+  background-image: url('https://elements-cover-images-0.imgix.net/514cef04-fd50-4f18-9ee9-ff712649c028?auto=compress%2Cformat&fit=max&w=632&s=703724cd1e761940df5eb9255908b993');
+  background-size: cover;
+  background-blend-mode: multiply;
   padding: 10px;
   position: relative;
   overflow: hidden;
