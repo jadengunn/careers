@@ -35,10 +35,11 @@ body {
   
   .container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 100vh;
-}
+  }
   
   .companies {
     display: flex;
@@ -49,6 +50,7 @@ body {
   .box {
     width: 200px;
     height: 200px;
+    margin: 10px;
 }
 
 .box img {
