@@ -1,3 +1,9 @@
+// Initialize AOS
+AOS.init();
+
+// Initialize Rellax
+var rellax = new Rellax('.rellax');
+
 var deloitte = document.querySelector('img[alt="Deloitte"]');
 var ey = document.querySelector('img[alt="EY"]');
 var kpmg = document.querySelector('img[alt="KPMG"]');
